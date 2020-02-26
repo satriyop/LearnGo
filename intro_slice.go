@@ -9,6 +9,7 @@ func intro_slice(){
   fmt.Println(x)
   fmt.Println(x[3])
 
+  // slice capacity is depending on the array capacity as the underlying data structure
   x = append(x, 5)
   fmt.Println(x)
 
@@ -19,5 +20,15 @@ func intro_slice(){
   for _, v := range x {
     fmt.Println(v)
   }
+  
+  
+  fmt.Println("== Unpack Slice ===")
+  spreadSlice(x...)
 
+}
+
+func spreadSlice(i ...int){
+  for i,v := range i {
+    fmt.Println(i,v)
+  }
 }

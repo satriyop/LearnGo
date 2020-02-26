@@ -16,7 +16,7 @@ func intro_if_else(){
     fmt.Printf("%d is not 10 \n", a)
   }
 
-  // if with var init
+  // if with var assignment
   if name:= "Go"; name == "Go" {
     i := 0
     for i < 5 {

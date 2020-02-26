@@ -40,9 +40,15 @@ func main() {
   // *Explore Structures
   // intro_structures()
 
-  // *Explore func
+  // *Explore Function
   // intro_func()
 
   //*Explore Variadic Parameter
-  intro_var_par()
+  // intro_var_par()
+
+  // *Explore Defer
+  // intro_defer()
+
+  // *Explore Method
+  intro_method()
 }
