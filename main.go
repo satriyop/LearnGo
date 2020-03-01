@@ -50,5 +50,29 @@ func main() {
   // intro_defer()
 
   // *Explore Method
-  intro_method()
+  // intro_method()
+  
+  //*Explore Interface
+  // intro_interface()
+
+  //*Explore Anonymous Func
+  // intro_anonymous_func()
+
+  //*Explore Func Expression
+  // intro_func_expression()
+
+  //*Explore Returning a Function
+  // intro_return_a_func()
+
+  //*Explore Callback
+  // intro_callback()
+
+  //*Explore Closure
+  // intro_closure()
+
+  //*Explore Recurssion
+  // intro_recursion()
+
+  //*Explore Pointer
+  intro_pointer()
 }

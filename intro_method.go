@@ -34,9 +34,15 @@ func intro_method(){
   // calling test method
   kotaro.test()
   // calling sendEmail method
-  if satriyo.sendEmail(kotaro) {
+  if satriyo.sendEmail(&kotaro) {
     fmt.Println("Email sent successfully")
   }
+
+  satriyo.sendEmail(&kotaro)
+  satriyo.sendEmail(&kotaro)
+  fmt.Println("Whats the impact ?",satriyo)
+  fmt.Println("Whats the impact ?",kotaro)
+
 
 }
 
@@ -48,8 +54,6 @@ func activateUser(u *user){
   } else {
     fmt.Println("Nothing to activate")
   }
-  
-  
 }
 
 // Attaching function on type user (hence become method)
@@ -58,11 +62,11 @@ func (u user) test(){
   fmt.Println("Testing Method Done")
 }
 
-func (u user) sendEmail(r user) bool {
+func (u *user) sendEmail(r *user) bool {
   r.receivedEmail++
   u.sentEmail++
-  fmt.Println("Sent Email Counts",u.sentEmail)
-  fmt.Print("Received Email Counts",r.receivedEmail)
+  fmt.Println("Sent Email Counts", u.sentEmail)
+  fmt.Println("Received Email Counts", r.receivedEmail)
   return true
 }
 
