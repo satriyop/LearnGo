@@ -51,7 +51,7 @@ func main() {
 
   // *Explore Method
   // intro_method()
-  
+
   //*Explore Interface
   // intro_interface()
 
@@ -74,5 +74,9 @@ func main() {
   // intro_recursion()
 
   //*Explore Pointer
-  intro_pointer()
+  // intro_pointer()
+
+  //*Explore Errors
+
+  intro_errors()
 }
