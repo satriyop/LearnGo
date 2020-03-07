@@ -77,6 +77,11 @@ func main() {
   // intro_pointer()
 
   //*Explore Errors
+  //intro_errors()
 
-  intro_errors()
+  //*Explore GoRoutine
+  //intro_goroutine()
+
+  //*Explore Channel
+  intro_channel()
 }
