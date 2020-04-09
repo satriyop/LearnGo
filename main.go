@@ -5,7 +5,7 @@ import (
 )
 
 func main() {
-  fmt.Println("This is a gently intro for Golang")
+  fmt.Println("Welcome to gently intro to learn Go...")
   // *Explore Variabel Assignment / Initialization
   // intro_variable()
   // fmt.Println(global_variable)
@@ -83,5 +83,5 @@ func main() {
   //intro_goroutine()
 
   //*Explore Channel
-  intro_channel()
+  // intro_channel()
 }
